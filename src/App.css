@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-nav{
+  background-color : rgb(213, 206, 206);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5.0px solid #596074;
+}
+.sub-nav{
+  width: 80vw;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 10px;
+}
+.edit-hover:hover{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; ;
+}
+.edit1,.edit2,.edit3,.edit4{
+  padding: 1.0rem;
+  width: 24%;
+  border-radius: 5px;
+}
+.write{
+background-color : rgb(17, 15, 15);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.subwrite{
+background-color:white;
+width: 80vw;
+padding:0 1rem ;
+
+
+
+
+}
